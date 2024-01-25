@@ -1,0 +1,354 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif; /* Updated font-family */
+  text-decoration: none;
+}
+
+
+body {
+  color: #333;
+  background: #f2f2f2; /* Dirty White */
+  background-attachment: fixed; 
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background: #333; /* Dark Gray */
+  color: #fff; /* White text on dark background */
+  overflow-y: auto;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+}
+
+.Sidebar a {
+  padding: 5px;
+  display: block;
+  color: #ffffff; /* Dark Gray */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.Sidebar a:hover {
+  background-color: #666; /* Gray */
+}
+.logo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+  margin: 20px 0;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+margin-left: 70px;}
+
+
+.logo span {
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 8px;
+  
+  color: #fff; 
+
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+.fas {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-top: 40px; 
+  top: 14px;
+  margin-left: 16px;
+  
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  position: relative;
+  top: -10px;
+  margin-left: 70px;
+  display: flex;
+  
+  flex-direction: column;
+  flex-grow: 1; 
+}
+
+.nav-item:hover{
+  transform: translateY(-8px);
+
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo span {
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 8px;
+  position: relative;
+  left: -14px;
+  color: #fff; 
+
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+
+
+.logout{
+  width: 100%;
+    position: absolute ;
+    bottom: 0;
+}
+
+
+
+.title{
+ background: #fff;
+    color:  black;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+   font-weight: bold;
+   border: 2px solid rgb(255, 255, 255);
+    width: 60%;
+    position: absolute;
+    top: 10px;
+    margin-left: 25%;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+
+    
+    
+
+    
+}
+
+.position{
+  top: 104px;
+   position: absolute;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  font-weight: bold;
+  margin-left: 30%;
+ color: #000;
+ width: 1000px;
+ box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+ 
+background: #fff;
+  
+}
+
+
+
+
+
+aside{
+ border: 2px solid #fff;
+ box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.position .compname {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+
+
+  table{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+    color: #000000;
+   top: 245px;
+   left: 30.3%;
+    width: 53%;
+    
+    text-align: center;
+    border-collapse: separate;
+    
+ background: transparent;
+}
+ 
+
+th{
+  color: #000;
+  position: sticky;
+  top: 0px;
+
+}
+
+.table-w{
+  max-height: 250px;
+  overflow-y: scroll;  
+  margin:20px
+}
+.table-w::-webkit-scrollbar{
+  display: none;
+}
+
+td,th{
+  color: #000;
+  border: 2px solid rgb(226, 222, 222);
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+
+   
+h1  {
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  margin-left: 2px;
+  font-weight: lighter;
+  font-size: 20px;
+}  
+
+
+
+
+
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+}
+.MonthSelection{
+  position: absolute;
+  top:-90px;
+  left: 78.5%;
+}
+.PeriodSelection{
+  position: absolute;
+  top:-115px;;
+  left: 91.3%;
+}
+.Selection-Container{
+  background-color: #000;
+  position: relative;
+ 
+  top:230px;
+}
+.MonthSelection span{
+  position: relative;
+  left: 50%;
+  top:-30px;
+  font-weight: bold;
+}
+.PeriodSelection span{
+  position: relative;
+  left: 10%;
+  top:-1px;
+  font-weight: bold;
+}
+.previous {
+  padding:10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  border-radius: 5px;
+ margin-left: 10px;
+ color: #ffffff;
+  position: absolute;
+  top: 37%;
+  left: 84%;
+}
+
+.next {
+  padding:10px;
+  width: 76px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin: 5px 10px;
+  background-color: #333;
+  border-radius: 5px;
+color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 84%;
+}
+.total{
+  font-size: 18px;
+  position: relative;
+  padding: auto;
+  margin-top: 2px;
+font-weight: lighter;
+  color: #000;
+}
+@media (max-width: 360px) {
+  .Sidebar {
+    display: none;
+  }
+
+  .position {
+    top: 10px;
+    margin-left: 5%;
+    width: 90%;
+  }
+  table{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+    color: #000000;
+   top: 180px;
+ 
+    width: 45%;
+    
+    text-align: center;
+    border-collapse: separate;
+    
+ background: transparent;
+}
+ 
+}
+
+

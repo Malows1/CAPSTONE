@@ -1,0 +1,87 @@
+/* styles.css */
+
+.flex-container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 500px;
+  text-align: center;
+  }
+  
+  .heading-1 {
+    font-size: 40px;
+   
+    color: #000;
+    margin-bottom: 2rem;
+  }
+  
+  .token-info {
+    padding: 0.5rem 1rem;
+    background-color: #333; 
+    color: #fffcfc;
+    margin-bottom: 5px;
+  }
+  
+  .error-container {
+    padding: 0.5rem 1rem;
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    padding: 0.5rem;
+    color: #000;
+    border: 1px solid #666;
+    border-radius: 0.25rem;
+  
+    width: 70%;
+   
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #666;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+    left: -1px;
+    border: none;
+font-weight: bold;
+    top:11px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 5px;
+  }
+  
+ 
+  
+  .button:disabled {
+    background-color: #c5ecb3; 
+    
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+  }
+  .fas-verify{
+    height: 70px;
+    color: #78dd7d;
+  }
+  p{
+    color: black;
+    font-size: 20px;
+    margin: 1px 10px;
+  }
